@@ -27,7 +27,7 @@ namespace PersonalAssistantAI.Services
 
             // Customize speaking behavior
             _synthesizer.Rate = 1;    // Speed (-10 to +10)
-            _synthesizer.Volume = 95; // Volume (0–100)
+            _synthesizer.Volume = 98; // Volume (0–100)
 
             // Register event once
             _synthesizer.SpeakCompleted += (s, e) => { IsSpeaking = false; };

@@ -24,7 +24,7 @@ namespace PersonalAssistantAI.Services.ChatService
         static Kernel CreateBuilder()
         {
             return Kernel.CreateBuilder().
-                  AddOpenAIChatCompletion("qwen2.5:7b",
+                  AddOpenAIChatCompletion("qwen2.5:14b-instruct",
                   "not-needed",
                   httpClient: new HttpClient
                   {
