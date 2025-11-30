@@ -88,7 +88,7 @@ namespace PersonalAssistantAI.Services.ChatService
                      if (IsPasswordMatch(spoken, _expectedPwd!))
                      {
                          System.Threading.Volatile.Write(ref _accessGranted, 1);
-                         ttsService.Speak("Access granted. Welcome! I'm Jarvis, built by Pawan. How can I assist you today?");
+                         ttsService.Speak("Access granted. Welcome back sir ! I'm Jarvis. How can I assist you today?");
 
                      }
                      else
